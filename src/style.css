@@ -1,0 +1,40 @@
+html{
+  cursor: none;
+}
+.custom-main-cursor,
+.custom-secondary-cursor {
+  z-index: 10000;
+  pointer-events: none;
+  position: fixed;
+}
+
+.custom-main-cursor {
+  transition: opacity 1s cubic-bezier(0.77, 0, 0.175, 1);
+  animation: fadeIn 1s cubic-bezier(0.77, 0, 0.175, 1) 0s forwards;
+  mix-blend-mode: difference;
+
+  .custom-main-cursor-background {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+  }
+}
+
+.custom-secondary-cursor {
+  width: 60px;
+  height: 60px;
+
+  .custom-cursor-background {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    
+  }
+}
+
+
+
+

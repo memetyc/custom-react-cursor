@@ -1,14 +1,14 @@
 {
-  "name": "custom-react-cursor",
-  "version": "1.0.0",                     
+  "name": "custom-react-cursors",
+  "version": "1.0.10",
   "type": "module",
-  "source": "src/index.js",            
-  "main": "dist/index.js",
-  "module": "dist/index.module.js",
+  "source": "src/index.js",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
-    "build": "microbundle",           
-    "dev": "microbundle watch"        
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "devDependencies": {
     "microbundle": "^0.15.1"
@@ -16,5 +16,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/memetyc/custom-react-cursor.git"
-  }
+  },
+  "keywords": [
+    "react",
+    "custom",
+    "cursor",
+    "effects"
+  ],
+  "authors": [
+    "Mehmet Yusuf Çalışkan"
+  ]
 }
