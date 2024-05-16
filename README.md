@@ -45,4 +45,7 @@ For example, to customize the cursor with a hot pink ring and ball, you can use:
 ```
 <CustomCursor ringColor={'hotpink'} ballColor={'hotpink'} />
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c2ee6de0680a44bc4286d2f5b89ab0fd0fa339d
