@@ -8,3 +8,8 @@ You can add Custom React Cursors to your project using npm or yarn.
 
 ```bash
 npm install custom-react-cursors
+```
+or
+```bash
+npm install custom-react-cursors
+```
